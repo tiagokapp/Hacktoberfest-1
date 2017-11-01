@@ -6,10 +6,39 @@
 */
   
 
+#include <stdbool.h>
 
+#define n 10
+
+int list[n] = {1,8,4,6,0,3,5,2,7,9};
+
+int i = 0;
+bool switched = true;
+
+
+void display() {
+   int i;
+   printf("[");
+	
+
+   for(i = 0; i < n; i++) {
+      printf("%d ",list[i]);
+   }
+	
+   printf("]\n");
+}
 
 void bubbleSort(int arr[], int n)
 {
+  
+  
+   int temp;
+   int j;
+   //bool switched;
+   //i = 0;
+   //for(i = 0; i < n-1; i++) { 
+   if(i == n - 1 && switched == false) return;//solucao trivial
+    //if(i == n - 1) return;
    int i, j;
    for (i = 0; i < n-1; i++)      
  
@@ -17,6 +46,12 @@ void bubbleSort(int arr[], int n)
        for (j = 0; j < n-i-1; j++) 
            if (arr[j] > arr[j+1])
               swap(&arr[j], &arr[j+1]);
+  
+  }else {
+           printf(" => not swapped\n");
+        }
+		
+     }
 }
 
 int main()

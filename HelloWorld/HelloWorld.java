@@ -32,6 +32,33 @@ class HelloWorld {
     CENSUS.add("Maxwell Cody @ https://github.com/MaxwellCody");
   }
 
+  Class HelloWorldAPP2{
+  
+    public static void main (string [] args){
+      
+      
+      System.out.println.("Hello Word!! Olá Mundo):
+                          }
+  
+  
+  }
+  // classe tabela
+      public JTable criaandoTabela() {
+		ArrayList dados = new ArrayList();  
+		    String[] colunas = new String[] { "Estado", "Cidade" };  
+		    // Alimento 
+		    dados.add(new String[] { "SP", "Ribeirão" });  
+		    dados.add(new String[] { "RJ", "Osasco" });  
+		    dados.add(new String[] { "RN", "Prain" });  
+		    dados.add(new String[] { "ES", "Espirito Santo" });  
+		    Tabela modelo = new Tabela(dados, colunas);  
+		    JTable jtable = new JTable(modelo);  
+		    jtable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);  
+		    return jtable;  
+	}                  
+                          
+                          
+  
   public static void main(String[] args) {
     for(String entry : CENSUS) {
         System.out.println("Hello World from " + entry);

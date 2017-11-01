@@ -38,3 +38,16 @@ class HelloWorld {
     }
   }
 }
+public class OI_Saudades
+{
+  
+   Saudacao2 fala1, fala2;
+   fala1 = new Saudacao2(); // instanciou a classe
+   fala1.sauda();
+   fala1.formal();
+   fala1.sauda() ;
+
+   fala2 = new Saudacao2(); // criou um novo objeto
+   fala2.sauda();
+   }
+}

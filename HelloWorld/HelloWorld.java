@@ -32,6 +32,21 @@ class HelloWorld {
     CENSUS.add("Maxwell Cody @ https://github.com/MaxwellCody");
   }
 
+  Class HelloWorldAPP2{
+  
+    public static void main (string [] args){
+      
+      
+      System.out.println.("Hello Word!! Olá Mundo):
+                          }
+  
+  
+  }
+  // classe tabela
+                          
+                          
+                          
+  
   public static void main(String[] args) {
     for(String entry : CENSUS) {
         System.out.println("Hello World from " + entry);
